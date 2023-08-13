@@ -45,7 +45,7 @@ let resetDayLeft = getRmainingDays(resetDay);
     let total = usage.total;
     let expire = usage.expire || args.expire;
     let localProxy = ['=http, localhost, 6152','=http, 127.0.0.1, 6152','=socks5,127.0.0.1, 6153']
-    let infoList = [];
+    let infoList = ["This is a test"];
 
     if (args.airport) {
         infoList.push(`机场：${args.airport}`)
