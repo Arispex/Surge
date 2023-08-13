@@ -1,0 +1,8 @@
+#!name=订阅信息
+#!desc=显示机场订阅信息
+
+[Panel]
+Sub_info = script-name=Sub_info
+
+[Script]
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Arispex/Surge/main/Js/SubscribeInfo.js,script-update-interval=0,argument=url=[机场订阅链接encode后的字符串]&reset_day=[每月重置日期]&title=订阅信息&airport=[自定义机场名称]
