@@ -1,0 +1,5 @@
+#!name=Real IP
+#!system=mac
+
+[General]
+always-real-ip = %APPEND% headscale*.arispex.com
