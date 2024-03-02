@@ -2,4 +2,4 @@
 #!system=mac
 
 [General]
-always-real-ip = %APPEND% headscale*.arispex.com
+always-real-ip = %APPEND% headscale*.arispex.com controlplane.tailscale.com, derp*.*.*
