@@ -1,0 +1,5 @@
+#!name=Fix Tailscale
+#!system=mac
+
+[General]
+always-real-ip = %APPEND% controlplane.tailscale.com, derp*.*.*, *.ts.net, *.*.ts.net

@@ -1,5 +1,0 @@
-#!name=Real IP
-#!system=mac
-
-[General]
-always-real-ip = %APPEND% headscale*.arispex.com, controlplane.tailscale.com, derp*.*.*, *.ts.net, *.*.ts.net
